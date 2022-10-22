@@ -1,0 +1,106 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: auto;
+}
+
+header {
+    background-color: #2E948A;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    background-color: #2E948A;
+}
+
+button{
+
+border: 2px solid #FFFFFF;
+position: relative;
+background: #419488;
+
+}
+
+nav > ul {
+    list-style-type: none;
+}
+
+nav > ul > li {
+    display: inline;
+}
+
+nav > ul > li > a {
+    color: white;
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+h1{
+    color: 
+    #FF4081
+    
+}
+
+h2{
+    color: 
+    #FF4081 ;
+}
+
+img, p, h2{
+    display: inline-block;
+}
+
+.flex{
+   border: #419488 1px;
+}
+
+.videos div{
+    border: 1px #419488;
+    
+}
+
+.videos h2{
+    text-align: right;
+}
+
+.container div{
+    border: 100px;
+    display: flexbox;
+    flex-direction: row-reverse;
+}
+
+.container img{
+    max-width: 250px;
+    position: relative;
+    text-align: end;
+}
+
+.videos img{
+    max-width: 100px;
+    display: inline-block;
+    text-align: right;
+}
+
+@media (max-width: 576px) {
+    body {
+        max-width: 550px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        max-width: 750px;
+    }
+}
+
+@media (max-width: 992px) {
+    body {
+        max-width: 970px;
+    }
+}
+
+@media (max-width: 1200px) {
+    body {
+        max-width: 1180px;
+    }
+}

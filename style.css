@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #2E948A;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0 10px 10px
+}
+.menuheader{
+ align-items: right;
+ 
+
+}
+ .menuheader ul{
+    list-style-type: none;
+
+}
+.menuheader>ul>li{
+    display: inline;
+
+}
+.menuheader>ul>li>a{
+    color: white;
+    text-decoration: none;
+    padding-right: 20px;
+}
+.inisec1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.edfin{
+   width: 20%;       
+
+}
+.edfin p{
+    padding: 30px 0 30px 0;
+    
+}
+.titulo{
+    color: #FF4081;
+    font-size: 32px;
+    
+}
+.btn-white{
+    background-color: white;
+    color: #FF4081;
+    border: 2px solid #FF4081;
+    box-shadow: #FF4081;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    padding: 5px;
+}
+
+.inisec2{
+    background-color: #F6F6F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+
+}
+.inisec2 h3{
+    color: #FF4081;
+
+}
+.inisec2 .btn-pink{
+    background-color: #FF4081;
+    color: white;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    padding: 5px;
+    margin-top: 10px;
+}
+.inisec2>p{
+    width: 5%;
+}
+.inbl1{
+    padding: 50px 20px 20px 50px;
+}
+.inbl1>h3{
+    padding: 20px 0 20px 0;
+}
+.inisec3{
+    color: #009688;
+    margin-left: 50px;
+    }
+
+.titulo h2{
+    font-size: 30px;
+    color: #009688;
+}
+.inisec4{
+    display: flex;
+    width: 80%;
+}
+.inisec5{
+    display: flex;
+    width: 80%;
+}
+.depo1{
+    margin: 10px 15px ;
+}
+.depo2{
+    margin: 10px 15px 30px 10px ;
+}
+.nomedepo{
+    font-size: small;
+    margin-bottom: 40px;
+}
+.inisec6{
+    background-color: #E5E5E5;
+    padding-left: 50px;
+}
+.inisec6 h2{
+    font-size: 30px;
+    color: #009688;
+    padding-bottom: 40px;
+    
+}
+.inisec7{
+    display: flex;
+    text-align: center;
+    background-color: #E5E5E5;
+}
+.retangulo{
+    width: 80%;
+    height: 140px;
+    background-color: #C4C4C4;
+    text-align: center;
+    margin-left: 30px;
+}
+.contvc{
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+.btn-final{
+    background-color: #E5E5E5;
+    color: #FF4081;
+    border: 2px solid #FF4081;
+    box-shadow: #FF4081;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    padding: 5px;
+    text-align: center;
+    justify-content: center;
+
+}
+.secbut{
+    text-align: center;
+    background-color: #E5E5E5;
+    padding-bottom: 30px;
+}
+footer{
+    background-color: #2E948A;
+    color: white;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.menufooter ul{
+    list-style-type: none;
+
+}
+.menufooter>ul>li>a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.menu2footer>button{
+background-color: #2E948A;
+color: white;
+border: 2px solid white;
+border-radius: 10px;
+height: 50pix;
+width: 200px;
+margin-bottom: 10px;
+}
+.seuncontato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contasec{
+    width: 30%;
+    margin: 30px;
+}
+.inpform{
+    margin-bottom: 5px;
+}
+    
+
+.contasec>.form1>h2{
+    color: #FF4081;
+        margin-bottom: 20px;
+}
+.secblog1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 50px 20px 50px;
+}
+.divblog1{
+    width: 30%;
+    margin-right: 30px;
+}
+.divblog1>h1{
+    color: #009688;
+    margin-bottom: 10px;
+    width: 60%;
+    font-size: 26px;
+}
+.divblog2{
+    margin-left: 30px;
+}
+
+.secblog2{
+    padding: 40px 60px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #f6f6f6;
+
+
+}
+.secblog2 .colun1{
+width: 30%;
+align-items: center;
+justify-content: center;
+margin: 20px;
+}
+.secblog2 .colun2{
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    justify-items: center;
+    }
+
+.retangulo{
+    background-color: #C4C4C4;
+    width: 300px;
+    height: 150px;
+    margin-bottom: 15px;
+}
+.colun1>h3{
+    margin-bottom: 15px;
+    margin-left: 25px;
+}
+.colun2>h3{
+    margin-bottom: 15px;
+    margin-left: 25px;
+}
+.colun1>p{
+    font-size: small;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    width: 80%;
+}
+.colun2>p{
+    font-size: small;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    width: 80%;
+}
+.secursos1{
+    margin: 20px 0 30px 30px ;
+    margin-bottom: 100px;
+}
+.secursos1 h1{
+    color: #FF4081;
+    margin-bottom: 10px;
+    
+  
+    
+}
+.securprincipal{
+    margin-left: 40px;
+
+
+}
+.secundaria1{
+    display: flex;
+    margin-bottom: 100px;
+    border-bottom: 2px;
+    width: 75%;
+    align-items: center;
+    justify-content: center;
+}
+.secundaria1>div>h2{
+    color: #FF4081;
+    margin-bottom: 25px;
+}
+.secundaria1>div>p{
+    margin-bottom: 25px;
+}
+
+.divprincipal{
+    margin-left: 40px;
+}
+.btn-cursos{
+    background-color: #419488;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+.titulopost{
+    text-align: center;
+}
+.titulopost>h1{
+    color: #FF4081;
+    font-size: 32px;
+    }
+.titulopost>p{
+    font-size: smaller;
+    margin-bottom: 40px;
+
+}    
+.retangulo2{
+    background-color: #C4C4C4;
+    width: 1000px;
+    height: 480px;
+    margin: 50px 200px 50px 200px;
+
+}
+.textpost{
+    margin: 50px 200px 50px 200px;
+
+}
+.textpost .post-subtitulo{
+    color: #419488;
+    margin:20px 0 50px 0;
+}
+.secpost{
+    padding: 50px 200px 50px 200px;
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    
+}
+.secpost .divpost{
+    text-align: center;
+    justify-content: center;
+}
+.secpost .divpost h3{
+    color: #FF4081;
+    margin-bottom: 20px;
+
+}
+.secpost .divpost p{
+    width: 80%;
+    margin-bottom:  20px; ;
+}
+.secpost .divpost .btn-pink{
+    background-color: #FF4081;
+    color: white;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    padding: 5px;
+    margin-top: 10px;
+
+}
+.imgpost{
+    width: 60%;
+    height: 60%;
+}
